@@ -7,58 +7,25 @@
     box-sizing: border-box;
 }
 /*---------HEADER---------*/
-
-
-header{
-    background-color:  rgb(167, 167, 167);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-}
-
-header img{
-    width:15% ;
-    display: flex;
-}
-
 header nav{
-    width: 1000px;
+    background-color: darkgrey;
 }
 
-header nav ul{
-    list-style: none;
-    display: flex;
+.logo{
+    width: 170px;
+    height: 100px;
 }
 
-header nav ul li{
-    margin-right: 15px;
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-header nav ul li a{
-    transition: .5s;
+.btn:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }
-
-header nav ul li a:hover{
-    color: black;
-    font-size: 32px;
-}
-
-header a{
-    text-decoration: none;
-    color: #630000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-header h1{
-    color: #630000;
-    font-size: 50px;
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 
 /*-------MAIN------*/
 
@@ -70,11 +37,11 @@ header h1{
 }
 
 .portada{
-    background-image: url(../img/the\ las\ of\ us\ 1.jpg);
+    background-image: url(../img/GOW-PREVENT-100-PlanetShop-2048x700.jpg);
     width: 100%;
-    height: calc(100vh - 0px);
+    height: calc(90vh - 0px);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
 }
 
@@ -135,7 +102,7 @@ header h1{
     margin: 15px;
     border: 1px solid black;
     width: 255px;
-    height: 370px;
+    height: 390px;
     box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
@@ -196,7 +163,7 @@ header h1{
     margin: 15px;
     border: 1px solid black;
     width: 255px;
-    height: 370px;
+    height: 390px;
     box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
@@ -256,7 +223,7 @@ header h1{
     margin: 15px;
     border: 1px solid black;
     width: 255px;
-    height: 370px;
+    height: 390px;
     box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 27px -4px rgba(0, 0, 0, 0.75);
